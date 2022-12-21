@@ -1,0 +1,33 @@
+
+    <label for="contact_name" class="form-label">Your Name</label>
+    [text* your-name class:form-control class:mb-4 id:contact_name]
+
+    <label for="contact_email" class="form-label">Your Email Address</label>
+    [email* your-email class:form-control class:mb-4 id:contact_email]
+    
+    <label for="contact_phone" class="form-label">Your Cellphone Number <span class="signupform_spantext">(include country code, no spaces or dashes)</span></label>
+    [text* your-phone class:form-control class:mb-4 id:contact_phone]
+
+    <label for="contact_message" class="form-label">Message <span class="signupform_spantext">(500 words max)</span></label>
+    [textarea* your-message class:form-control  id:contact_message x3]
+
+    <button class="btn btn_membersignup mt-4 mb-5  btn_membership_form"><b>SEND</b></button>
+    [submit class:btn class:btn_membersignup class:mt-4 class:mb-5 class:btn_membership_form "SEND"]
+
+
+   <!-- subscribe form -->
+
+    <div class="row">
+        <div class="col-md-4 mb-4">                                     
+            [text* your-name class:form-control placeholder "Enter your name ..."]
+        </div>
+        
+        <div class="col-md-4 mb-4">                                      
+            [email* your-email class:form-control placeholder "Enter your email ..."]
+        </div>
+        <div class="col-md-3 mb-3 p-0 m-0">                                      
+          <div class="input-group">
+            [submit class:form-control class:text-white class:font-weight-bold class:bgYellow "Subscribe Now"]          
+          </div>
+        </div>
+      </div>
