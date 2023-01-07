@@ -206,7 +206,8 @@ wp_reset_postdata();
                                     </div>
                                   </div>
                             </form>
-
+                            	
+                           
                             <p class="text-center"><span> <em>Give it a try. You can unsubscribe at any time.</em> </span></p>
                         </div>
                     </div>
