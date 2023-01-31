@@ -1,0 +1,817 @@
+/*!
+Theme Name: SDGACADEMY
+Theme URI: http://underscores.me/
+Author: Peter Musembi
+Author URI: http://www.petapps.ca
+Description: Theme Created from Wordpress to bootstrap.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: the-home-for-publishers
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+AfricaSpeaks is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+ html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+
+.navbar-nav > li.current_page_item a ,
+.navbar-nav > li.current_page_parent a 
+{
+	color: white;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+}
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+	display: flex;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	text-align: end;
+	flex: 1 0 50%;
+}
+
+/* Posts and pages
+--------------------------------------------- */
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/* Widgets
+--------------------------------------------- */
+.widget {
+	margin: 0 0 1.5em;
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+/* Media
+--------------------------------------------- */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/* Captions
+--------------------------------------------- */
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/* Galleries
+--------------------------------------------- */
+.gallery {
+	margin-bottom: 1.5em;
+	display: grid;
+	grid-gap: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.gallery-columns-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+	grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+
+	/*rtl:ignore*/
+	float: left;
+
+	/*rtl:ignore*/
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.alignright {
+
+	/*rtl:ignore*/
+	float: right;
+
+	/*rtl:ignore*/
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* =====================CUSTOM CSS SDG ACADEMY===================== */
+@import url('assets/fonts/stylesheet.css');
+
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    overflow-x: hidden;
+
+}
+.header-div {
+    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;   
+    width:100%;
+    position: relative;
+}
+.section2 {
+margin-top: 200px;
+}
+
+a {
+  text-decoration:none;
+}
+
+h1, h2, h3, h4 {
+     font-family: 'Giorgio Sans';
+     text-transform: uppercase;
+}
+
+.colorBlack {
+  color: black;
+}
+
+.header-div-home-img1
+{
+    background-image: url(assets/images/slideImage1.png);
+   
+}
+.header-div-home-img2
+{
+    background-image: url(assets/images/slideImage2.jpg);
+    
+}
+.header-div-home-img3
+{
+    background-image: url(assets/images/slideImage3.jpg);
+    
+}
+.header-div-home-img4
+{
+    background-image: url(assets/images/slideImage4.jpg);
+   
+}
+.header-div-home-img5
+{
+    background-image: url(assets/images/slideImage5.jpg);
+   
+}
+.header-div-home-img6
+{
+    background-image: url(assets/images/slideImage6.jpg);
+    
+}
+
+.sliderContentSection {
+    position:absolute;
+    top:25%; 
+    left: 5%;
+    
+    max-width: 550px;
+    
+    
+}
+
+.sliderContentSection h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Giorgio Sans';
+    font-size: 60px !important;
+}
+
+.sliderContentSection p {
+    color: white;
+}
+
+.sliderHeader {
+    font-size: 60px;
+}
+
+.actionSection {
+    position:absolute;
+    bottom:13%; 
+    left: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Giorgio Sans';
+    max-width: 550px;
+    font-size: 60px !important;
+}
+
+.indicators-div {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    height: 10px;
+    z-index: 100;
+  }
+  .fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  .heroIndicator {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.heroIndicator.cycle-pager-active {
+  background-color: white;
+}
+ 
+
+  .actionBtn {
+    background: rgb(0, 0, 0, 0.15);
+    background: transparent;
+    font-family: 'Giorgio Sans';
+    font-size: 28px !important;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover .actionBtn {
+    background: rgb(0, 0, 0, 0.75);
+    color: white;
+  }
+
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* height = 100 * (9 / 16) = 56.25 */
+      height: 56.25vw;
+    }
+  }
+      
+  @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* width = 100 / (9 / 16) = 177.777777 */
+      width: 177.78vh;
+    }
+  }
+
+  h2.slider3Text {
+    font-size: 50px !important;
+  }
+
+
+  /* ===================MAIN SECTION===================== */
+  .mainSection {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow:hidden !important;
+  }
+
+  .headingText {
+    font-size: 60px;
+
+  }
+
+  .startBtn {
+    background: rgb(0, 0, 0, 0.15);
+    background: transparent;
+    font-family: 'Giorgio Sans';
+    font-size: 28px !important;
+    color: black;
+    border: 2px solid red;
+    border-radius: 0px;
+    margin-top: 15px;
+  }
+
+  a:hover .startBtn {   
+    background: red;
+    font-family: 'Giorgio Sans';
+    color: white;
+    border: 2px solid red;
+    border-radius: 0px;   
+  }
+
+  .colDiv1 {
+    background-color: #2ebce0;
+    width: 100%;
+    
+  }
+
+  .colDivContent {
+    margin: 0px;
+    /* margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px; */
+  }
+
+  .takeActionBtn {
+    background: transparent;    
+    font-family: 'Giorgio Sans';
+    font-size: 28px !important;
+    color: white;   
+    border: 2px solid white; 
+    border-radius: 0px;
+    margin-top: 15px;
+  }
+:hover .takeActionBtn {
+    background: white;
+    color: black;
+  }
+
+  .colDiv2 {
+    background-image: url(assets/images/content1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .colDiv3 {
+    background-image: url(assets/images/content2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .colDivContent2 {
+    background-color: #2ebce0;
+    width: 100%;
+  }
+
+  .divContent3 {
+    background-color: #f49c2c;
+  }
+
+  .interludeImgDiv {
+    background-image: url(assets/images/content3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .imgparentDiv {
+    height: 600px;
+  }
+
+  .articleBox {
+    cursor: pointer;
+    background-color: 	rgb(211, 211, 211, 0.4);
+  
+  }
+  
+ 
+  /* .blogPostImageDiv {
+    height: 200px;
+    
+  } */
+
+  .textGrey {
+    color: #ccc;
+  }
+
+  .colorBlack {
+    color: black !important;
+  }
+
+  .postReadMore:hover {
+    text-decoration: underline;
+  }
+
+  .seeMoreBtn {
+    background: transparent;    
+    font-family: 'Giorgio Sans';
+    font-size: 28px !important;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    align-items: center !important;
+  }
+
+  .seeMoreBtn:hover {
+    background: black; 
+    color: white;
+    border: 2px solid black;
+ 
+  }
+
+  .stayUpdated {
+    background-color:#02699E; ;
+  }
+  
+  input {
+    background: transparent !important;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding: 5px 10px;
+    outline: none;
+    color : white; 
+    margin-right: 20px;
+ }
+
+ .font14 {
+  font-size: 14px;
+ }
+
+ .contactForm {
+  color: white;
+ }
+  
+.navigation li a {
+  color: black;
+}
+
+.navHeading {
+  font-size: 20px;
+}
+
+.social-icons ul li a{
+  margin: 0 7px;
+}
+
+.footerNav li a {
+  color: black;
+}
+
+.headerNavigationUl ul li a {
+  font-family: 'Giorgio Sans';
+  font-size: 26px;
+  font-weight: 400px;
+  line-height: 70px;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  word-spacing: 1.84px;
+  z-index: 1;
+  margin-left: 30px;
+ 
+}
+
+.navBrand {
+  font-family: 'Giorgio Sans';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+
+.colorWhite {
+  color:white !important;
+
+}
+
+
+/* =================LOGO================== */
+.rotatorImage {
+  width: 140;
+  transform:rotate(-10deg);
+}
+#change {
+  position: absolute;
+  top: 155%;
+  left: 88%;
+  width: 10px;
+  height: 10x;
+  
+  /* margin-top: -100px;
+  margin-left: -100px; */
+ 
+  cursor: pointer;
+  z-index: 100;
+}
+
+#change .holder {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  margin-left: -20px;
+}
+#change a {
+  position: absolute;
+  top: -500px;
+  left: -120px;
+  height: 20px;
+  width: 40px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+
+
+.holder img {
+  
+ border-radius:10px;
+  
+}
+
+.logoDiv {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.logoDiv img {
+  display: inline;
+  margin: 0 auto;
+  height: 97%;
+  width: auto;
+}
+
+/* .logoSpinner {
+  position: relative;
+} */
+
+.logoDivContainer {
+  position:absolute;
+  top: 100%;
+  left: 66%;
+  z-index: 200;
+  
+}
+
+ul.footerNav  li {
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+
+
+  

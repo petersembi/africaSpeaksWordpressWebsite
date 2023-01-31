@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('Avenir-Book.woff2') format('woff2'),
+        url('Avenir-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-HeavyOblique.woff2') format('woff2'),
+        url('Avenir-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Black Oblique';
+    src: url('Avenir-BlackOblique.woff2') format('woff2'),
+        url('Avenir-BlackOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Black.woff2') format('woff2'),
+        url('Avenir-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Heavy.woff2') format('woff2'),
+        url('Avenir-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('Avenir-BookOblique.woff2') format('woff2'),
+        url('Avenir-BookOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Oblique.woff2') format('woff2'),
+        url('Avenir-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-LightOblique.woff2') format('woff2'),
+        url('Avenir-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-MediumOblique.woff2') format('woff2'),
+        url('Avenir-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Light.woff2') format('woff2'),
+        url('Avenir-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-BlackItalic.woff2') format('woff2'),
+        url('Industry-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Medium.woff2') format('woff2'),
+        url('Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Roman.woff2') format('woff2'),
+        url('Avenir-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-Book';
+    src: url('Industry-Book.woff2') format('woff2'),
+        url('Industry-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-LightItalic.woff2') format('woff2'),
+        url('Industry-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-DemiItalic';
+    src: url('Industry-DemiItalic.woff2') format('woff2'),
+        url('Industry-DemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-Demi';
+    src: url('Industry-Demi.woff2') format('woff2'),
+        url('Industry-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Black.woff2') format('woff2'),
+        url('Industry-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Bold.woff2') format('woff2'),
+        url('Industry-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-BookItalic';
+    src: url('Industry-BookItalic.woff2') format('woff2'),
+        url('Industry-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Light.woff2') format('woff2'),
+        url('Industry-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-ThinItalic.woff2') format('woff2'),
+        url('Industry-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Medium.woff2') format('woff2'),
+        url('Industry-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-Ultra';
+    src: url('Industry-Ultra.woff2') format('woff2'),
+        url('Industry-Ultra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-MediumItalic.woff2') format('woff2'),
+        url('Industry-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry-UltraItalic';
+    src: url('Industry-UltraItalic.woff2') format('woff2'),
+        url('Industry-UltraItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Thin.woff2') format('woff2'),
+        url('Industry-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

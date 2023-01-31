@@ -1,0 +1,1090 @@
+/* Import fonts using a URL */
+@import url('../myfonts/stylesheet.css');
+/* 
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Fonts/Industry\ Bold.ttf);
+ 
+  }
+
+  @font-face {  
+    font-family: IndustryLight;
+    src: url(../fonts/Fonts/Industry\ Book.ttf);
+  }
+
+  @font-face {  
+    font-family: AvenirNormal;
+    src: url(../fonts/Fonts/Avenir-Light.ttf);
+  } */
+
+
+
+
+ body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Avenir', sans-serif;
+  max-width: 100%;
+  line-height: 1.8;
+  }
+
+  .btn {
+    
+    color: black !important;
+
+  }
+
+  .btn:hover {
+    background-color: #e0a800;
+  }
+
+  h4 {
+    font-family: 'Industry';
+    font-weight: 500;
+    font-size: 1.8rem; 
+  }
+
+  /* colors */
+  .orangeColor {
+    color: #FAAA28;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.h-75 {
+  height: 75vh;  
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+
+  .carousel-content {
+    position: absolute;
+    top: 1%;
+    left: 11%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+  .header_ul {
+    text-align: left;
+    font-family: 'industry';
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-left: 30%;
+    margin-top:0;
+  }
+
+  .header_ul a:hover {
+    color: #FAAA28;
+  }
+  
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+ .carousel_title {
+    font-family: 'Industry';
+    font-size: 35px;
+    line-height: 20px;
+    font-size: 2em;
+    text-align: left;
+    margin-left:20%;
+    font-weight: 700;
+  }
+
+  /* .carousel_diff_word {
+    color: #d82f15;
+    color:#dca609;
+    font-weight: bold;
+    font-size: 40px;
+
+  } */
+
+  .carousel_text {
+    /* line-height: 2em;    */
+    font-family: 'Avenir' !important;
+    font-size: 1em;
+    text-align: left;
+    margin-left:20%;
+    line-height: 1.8em;
+    
+  }
+
+  .slider_buttons {    
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px !important;
+    background-color:transparent !important;
+    border: solid 1px #fff!important;
+    
+    /* outline-width: 20px !important;
+    outline-color: white !important; */
+  }
+
+  .carousel-indicators {
+    float:left !important;
+    margin-left: 29% !important;
+    border-left: 0 !important;
+    justify-content: left !important;
+  }
+
+  
+  .slider_buttons.active {    
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px !important;
+    background-color: #FAAA28 !important;
+  }
+
+  .carousel .carousel-indicators li {background-color: red;}
+.carousel .carousel-indicators li.active {background-color: blue;}
+
+  .discipleship_title {
+    color: #D92E00;
+    font-family: 'Industry';
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .discipleship_text_2 {
+    /* color: #FAAA28; */
+  }
+
+  .section_text {
+    line-height: 2em;
+    
+    /* font-size: 1.5em; */
+
+    /* font-family: Avenir Roman;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.09em; */
+    
+  }
+
+ 
+  
+
+  .button:hover {
+    color:white;
+      background-color:#FAAA28;
+      border-radius: 0 !important;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.members_saying_text {
+  color: #FAAA28;
+  
+  
+}
+/* =============SECTIONS================ */
+/* .section_text {
+  font-family: Avenir ;
+} */
+
+.section_text_join_comm{
+  line-height: 1.4em;
+  
+  /* font-size: 1.3em; */
+
+  /* font-family: Avenir Roman;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.09em; */
+  
+}
+
+
+
+
+/* ===============DIRECTORY===================== */
+.directory_inputs_text {
+  /* font-family: Avenir Book;
+  font-size: 1.3rem; */
+}
+
+.card-title {
+
+font-size: 1.5em;
+}
+
+.card_badge {
+  background-color: #D92E00;
+}
+
+.button {
+  color:white;
+  background-color:#FAAA28;
+  
+}
+
+.card_directory {
+  width: 100%;
+}
+
+.card-text {
+  line-height: 2em;
+ 
+    
+}
+
+.social_media_li {
+  list-style: none;
+
+}
+
+
+/* =================FOOTER==================== */
+
+.myfooter {
+  background-image: url('../images/footer_image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #cccccc; */
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.footer_ul {
+  text-align: center;
+  font-family: industry;
+  font-weight: bold;
+}
+
+ul a {
+  color: white;
+}
+
+ul a:hover {
+  color: white;
+}
+
+ul a li {
+  margin-top: 1.5rem;
+  
+}
+
+.interlude_img {
+  opacity: 0.1;
+  height: 2rem;
+}
+
+
+
+
+/* Interlude */
+.my_interlude {
+  position: relative;
+  height: 3em;
+}
+.my_interlude::before {
+  content: "";
+  background-image: url('../images/interlude.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.09;
+
+}
+
+/* .my_interlude::before {    
+  
+  background-image: url('../images/interlude.png');
+
+  opacity: 0.75;
+} */
+
+
+/* ===================CAROUSEL========================  */
+.shadow-effect {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+    border:1px solid #ECECEC;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+#customers-testimonials .shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  background: #3190E7;
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom:80px;
+  opacity: .2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1.0, 1.0, 1);
+  transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  /* background: #3190E7; */
+  background: #FAAA28;;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  /* background: #3190E7; */
+  background: #FAAA28;;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+
+  @media (min-width: 768px)
+  {
+   
+  }
+  .carousel_full_image {
+    height: 100vh;
+}
+
+/* ============HOME PAGE================ */
+  
+  .header-div-home-img1 {
+ 
+    background-image: url(../images/home-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+
+  .header-div-home-img2 {
+   
+   
+    background-image: url(../images/slide_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  .header-div-home-img3 {
+    
+  
+    background-image: url(../images/slide_3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+
+  .header-text-parent-div {
+    position: relative;
+
+  }
+
+  .header-text-div {
+    position: absolute;
+    top: 45vh;
+    left:0px;
+  }
+
+  .carousel-title-home {
+    line-height: 3.3rem;
+    
+
+  }
+   
+  .carousel-text-home {
+    margin-top: 0;
+  }
+
+  .carousel-indicators-home {
+    position: absolute;
+    left:17%;
+    top: 87vh;
+  }
+
+  .carousel-indicators-home button {
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px !important;
+    background-color:transparent !important;
+    border: solid 1px #fff!important;
+  }
+
+  .carousel-indicators-home button.active {
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px !important;
+    background-color: #FAAA28 !important;
+  }
+
+  .header-text-div-home {
+    top: 40vh;
+  }
+  .header-text-div-mission{
+    top:48vh;
+  }
+
+  .header-text-div-join {
+    top:60vh;
+  }
+  
+
+
+  /* ==========================ABOUT US PAGE==================== */
+  .header-div {
+    display:block;
+    height: 50vh;
+    background-image: url(../images/home-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .about_us_welcome_text {
+    position: absolute;
+    bottom: 6%;
+    left: 0px;
+
+  }
+
+  .about_us_title {
+    margin-left: 0;
+    line-height: 1.2em;
+    font-size: 2.2em;
+  }
+
+  .header_ul_about_us {
+    
+    font-size: 1em;
+    line-height: 1.1em;
+
+    
+  }
+
+  .my_interlude_aboutus {
+    margin-top: 60px;
+  }
+
+
+  /* Member Signup */
+  .membershipsignupdivs {
+    background-color: #2A0800;
+    position: relative;
+  }
+
+  .membership_bottom_btn_div {
+  margin-top: 100px;
+   width: 70%;
+   position: absolute;
+   bottom: 0%;
+   left: 15%;
+   
+    
+  }
+
+  .membershipdivs-content {
+    margin-bottom: 130px;
+  }
+
+  .img_membershipsignup {
+    margin-top: 2em;
+  }
+
+  .membershipsignup_ul li{
+    /* margin-top: 2.2em; */
+    line-height: 2em;
+  }
+
+  .btn_membersignup {
+    background-color: #FAAA28;
+  } 
+
+  .moreinfo-btn:hover {
+    border-radius: 7px !important;
+     background-color: #e0a800 !important;
+  }
+
+  .membership_div_title {
+   
+    font-size: 1.4em;
+  }
+
+  .membership_Lausanner a {
+    color: #FAAA28;
+  }
+  .membership_Lausanne:hover {
+    color: #FAAA28;
+  }
+
+  .container-membership {
+    margin-left: 13%;
+  }
+
+
+ 
+
+  .membership_signup_form {
+    padding-left: 30px;
+    margin-top: 50px;
+  }
+
+  .membership_signup_form input {
+    width: 92%;
+  }
+
+  .membership_signup_form textarea {
+    width: 92%;
+  }
+
+  .signupform_spantext {
+    font-size: 0.9rem;
+  }
+
+
+  .membership_joincomm_title{
+    font-size: 2em;
+  }
+
+
+  /* =================MODALS================== */
+  .my_modal_titles {
+    font-family: 'Industry';
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .modal_close_text {
+    color: white !important;
+    font-size: 1.25rem;
+  }
+
+  .onhover_modal_button {
+   
+  }
+
+  .onhover_modal_button:hover {
+    background-color: grey !important;
+  }
+
+  .readMore_btn:hover {
+   background-color: #e0a800 !important;
+  }
+
+
+
+  .header-div-contact_us {
+    background-image: url('../images/contact_us_1_darkened.png');
+    
+  }
+
+  .moreinfo-btn {
+    color: rgba(0,0,0,.8) !important;
+  }
+
+  .contacts_background_subimage {
+    background-image: url('../images/contact_us_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .header-div-community {
+    background-image: url(../images/Community-1.jpg);
+  }
+
+  .header-div-abouts {
+    background-image: url(../images/aboutus-page.jpg);
+    height: 75vh;
+  }
+
+  .aboutus_subimage_background {
+    background-image: url('../images/join_community.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+
+
+  .container-fluid {
+    margin:0;
+    width: 100%;
+    padding: 0;
+  }
+
+  #membershipsignupcols .row {
+   overflow: hidden;
+  }
+
+  #membershipsignupcols .row [class*="col-"]{
+    
+      margin-bottom: -99999px;
+      padding-bottom: 99999px;
+   
+    
+   
+  }
+
+  .header-div-membershipsignup {
+    background-image: url(../images/membership_signup_1.png);
+    
+  }
+
+  .home_subdiv_1 {
+    background-image: url(../images/home_discipleship2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+
+  .home_subdiv_2 {
+    background-image: url(../images/home_about.png);
+    border-radius: 8px;
+  }
+
+  .home_subdiv_3 {
+    background-image: url(../images/home_community.png);
+    border-radius: 8px;
+  }
+
+  .navbarNav {
+    background-color: rgba(0,0,0,.8);
+    padding-bottom: 10px;
+    border: 2px solid rgb(189, 185, 185);
+    border-top-left-radius: 0 !important;
+    width: 3px !important;
+  }
+
+  .navbarNav  ul{
+    margin-left: 0px !important;
+    padding-left: 5px !important;
+  }
+
+  .navbarNav  ul li{
+    margin-bottom: 25px !important;
+  }
+
+  .navbar-toggler-icon {
+    background-color: transparent !important; 
+  } 
+
+
+  /*  */
+
+  /* Media queries */
+  /* Contact Us page */
+
+  @media (max-width: 768px)
+  {
+    /* footer */
+
+    .signindiv {
+      display:none;
+    }
+
+    .headerElementsContainer {
+      height: 100vh;      
+      width: 100%;  
+      position: absolute;
+      top: 0px;
+      left: 0%;
+      z-index: 100;
+    
+    }
+    .carousel_text_div {
+      position: absolute;
+      bottom: 12%;
+      left: 0%;
+      z-index: 150;
+      width: 100%;
+    }
+
+    .ul-footer{
+      justify-content: center;
+    }
+
+    .ul-footer {
+      justify-content: center;
+      
+    }
+
+    .ul-footer_list-group-item {
+      display: inline;
+      margin: 4px;
+    }
+    .footer_text {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    /* contact us */
+
+    .membership_signup_form  {
+      
+      padding-left: 60px !important;
+    }
+
+    .contacts_subimage {
+      display:none;
+    }
+
+    /* about us */
+    .about_us_title {
+      margin-left: 20px;
+    }
+
+    .aboutus_subimage {
+      display:none;
+    }
+
+    .about_us_title {
+      font-size: 1.8em;
+    }
+
+    .form-check {
+      padding-left: 5em;
+    }
+
+    .btn_membersignup {
+      margin-left: 5px;
+
+    }
+
+    .btn_membersignup {
+      display: flex;
+      margin-top: 0;
+      margin-bottom: 0;
+      justify-content: left;
+    }
+
+    .about_us_title {
+      margin-right: 2px;
+    }
+
+    .community_title {
+      font-size: 2.3em;
+    }
+
+    .discipleship_title {
+      font-size: 2.1em;
+    }
+
+    .img_sm_nodisplay {
+      display: none;
+    }
+
+    .about_us_title_sm {
+      font-size: 1.5em;
+    }
+
+    .col_sm_directory {
+      margin-bottom: 20px;
+    }
+
+    .moreinfo_margin_bottom {
+      margin-bottom: 20px;
+    }
+
+    .home_page_subtitle {
+      font-size: 1.5em;
+    }
+
+    .carousel-title-home {
+      line-height: 2rem;
+      font-size:2rem;
+      
+  
+    }
+
+    .carousel-text-home {
+      line-height: 2rem;
+    }
+
+    .header-text-div-mission{
+      top:50vh;
+    }
+
+    .header-text-parent-div{
+      margin-left: 2px;
+    }
+    .header-text-div{
+      margin-left: 2px;
+      
+    }
+
+    .carousel-text {
+      margin-left: 2% !important
+    }
+
+    .header-text-parent-div {
+      padding: 10px;
+    }
+
+    .navbarNavcollapsed {
+      background-color: rgba(0,0,0,.8) !important;
+      padding-bottom: 10px !important;
+      border: 2px solid rgb(189, 185, 185)!important;
+      border-top-left-radius: 0 !important;
+      width: 3px !important;
+      padding-left: 0px !important;
+      margin-left: 0px !important;
+      padding: 0 !important;
+      border-radius: 10px;
+    }
+
+    .navbarNavcollapsed ul {     
+      padding-left: 0px !important;
+      margin-left: 5px !important;
+      margin-bottom: 10px !important;
+      margin-block-start: 0 !important;
+      margin-block-end: 0 !important;
+      margin-right: 0px !important;
+      width: 200px !important;
+    }
+
+    .navbarNavcollapsed ul ul {     
+      padding-left: 0px !important;
+      margin-left: 5px !important;
+      margin-bottom: 10px !important;
+      margin-block-start: 0 !important;
+      margin-block-end: 0 !important;
+      margin-right: 0px !important;
+      width: 200px !important;
+    }
+
+    .navbarNavcollapsed ul a:hover{
+      color: #FAAA28;
+    }
+
+    .carousel_text {
+      margin-left: 7% !important;
+      margin-right: 4%;
+      font-size: 1.1rem !important;
+      line-height: 2rem !important;
+    }
+
+    .carousel_title {
+      margin-left:7% !important;
+      line-height: 1.2em !important;
+
+    }
+
+    .carousel-indicators-home {
+      margin-left: 0 !important;
+      left: 7%;
+    }
+
+    .about_africa_speaks_text {
+      font-size: 1.6rem;
+    }
+  }
+
+
+
+
+
+  /* ============================ CYCLE 2 PLUGIN CSS===================== */
+  /*
+    these are just the default styles used in the Cycle2 demo pages.  
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* .cycle-slideshow {
+   width: 45%;
+    min-width: 200px; 
+    max-width: 500px;
+     margin: 10px auto;
+      padding: 0; 
+      position: relative;
+    background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
+
+ } */
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; display: block;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/* 
+    media queries 
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-slideshow { width: 200px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+}
+
+.headerElementsContainer {
+  height: 100vh;
+  /* background-color: red; */
+  width: 82%;  
+  position: absolute;
+  top: 0px;
+  left: 9%;
+  z-index: 100;
+
+}
+
+.indicators-div {
+  position: absolute;
+  bottom: 4%;
+  left: 28%;
+  
+  z-index: 100;
+}
+
+.carousel_text_div {
+  position: absolute;
+  bottom: 12%;
+  left: 12%;
+  z-index: 150;
+  width: 80%;
+}
+
+.header_ul_carousel {
+  text-align: left;
+  font-family: 'industry';
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1.8;
+  margin-left: 30%;
+  margin-top:0;
+}
+
+.signindiv {
+  position: absolute;
+  top: 6%;
+  right: 9%;
+  z-index: 150;
+  font-family: 'industry';
+  text-transform: uppercase;
+  
+
+}
+
+.heroIndicator{
+  width:30px;
+  height: 30px;
+  border:solid 1px #fff;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+div.heroIndicator.cycle-pager-active{
+  background-color: #FAAA28;
+  border: solid 1px #FAAA28;
+}
